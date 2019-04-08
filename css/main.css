@@ -2,6 +2,7 @@
     --color-primary: red;
     --color-secondary: #90ACD1;
     --color-secondary-light: #F9F9FF;
+    --color-title-secondary: white;
 }
 
 body,
@@ -69,11 +70,27 @@ body * {
             margin-top: -4px;
         }
 
+    .block-title.block-title-center {
+        text-align: center;
+    }
+
+        .block-title.block-title-center > .line::after {
+            margin-left: calc((100% - 10px) / 2);
+        }
+
+    .block-title.block-title-white {
+        color: var(--color-title-secondary);
+    }
+
+        .block-title.block-title-white > .line {
+            background-color: white;
+        }
+
 .bg-blue {
     background-color: var(--color-secondary);
 }
 
-.bg-light_grey {
+.bg-light-grey {
     background-color: var(--color-secondary-light);
 }
 
