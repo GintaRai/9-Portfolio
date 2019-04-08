@@ -56,14 +56,17 @@ body * {
         width: 100px;
         height: 2px;
         background-color: var(--color-primary);
+        margin-top: 20px;
     }
 
         .block-title > .line::after {
             display: block;
+            content: '';
             width: 10px;
             height: 10px;
             border-radius: 50%;
             background-color: inherit;
+            margin-top: -4px;
         }
 
 .bg-blue {
