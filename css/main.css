@@ -124,3 +124,46 @@ body * {
         display: inline-block;
         float: right;
     }
+
+/* HERO */
+
+
+
+/* CLIENT LOGOS */
+
+
+
+/* ABOUT MYSELF */
+
+
+
+/* STATISTICS and SERVICE OFFERS */
+
+.cards_list {
+    display: inline-block;
+    width: 100%;
+}
+    .cards_list > .card {
+        display: inline-block;
+        float: left;
+        margin-right: 30px;
+        width: calc((100% - 3*30px) / 4);
+        
+    }
+/* SKILLS */
+
+
+
+/* LATEST WORKS */
+
+
+
+/* JOB HISTORY */
+
+
+
+/* TESTIMONIALS */
+
+
+
+/* CONTACT ME */
