@@ -38,3 +38,46 @@ var statistics = [
         title: 'happy clients'
     }
 ];
+
+/* SKILLS */
+var skills = [
+    {
+        title: 'HTML5',
+        value: 85
+    },
+    {
+        title: 'CSS3',
+        value: 75
+    },
+    {
+        title: 'J-Query',
+        value: 90
+    },
+    {
+        title: 'Bootstrap',
+        value: 60
+    }
+];
+
+
+/* LATEST WORKS */
+
+
+
+/* JOB HISTORY */
+
+
+
+/* TESTIMONIALS */
+
+
+
+/* CONTACT ME */
+
+
+
+/* FOOTER */
+
+
+
+/* BACKT TO TOP */

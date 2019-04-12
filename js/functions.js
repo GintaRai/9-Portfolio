@@ -35,3 +35,45 @@ function renderCards(data) {
     }
     return HTML;
 }
+/* SKILLS */
+function renderSkills( data ) {
+    var HTML = '';
+
+    for (var i = 0; i < data.length; i++) {
+        HTML += '<div class="progress-bar">\
+                    <div class="title">'+data[i].title+'</div>\
+                    <div class="bar">\
+                        <div class="value" style="width:'+data[i].value+'%;">\
+                            <div class="loading-part">\
+                                <div class="vertical-line"></div>\
+                                <div class="text-value">'+data[i].value+'%</div>\
+                            </div>\
+                        </div>\
+                    </div>\
+                </div>';
+    }
+    return HTML;
+}
+
+
+/* LATEST WORKS */
+
+
+
+/* JOB HISTORY */
+
+
+
+/* TESTIMONIALS */
+
+
+
+/* CONTACT ME */
+
+
+
+/* FOOTER */
+
+
+
+/* BACKT TO TOP */
