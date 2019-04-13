@@ -162,17 +162,21 @@ body * {
                 border-right: 0px solid transparent;
                 border-top: 24px solid #90acd1;
             }
-
-        #hero h1 {
-
+        
+        #hero > .container {
+            padding: 110px 0 0 0;
         }
 
-        #hero p {
-
+        #hero .hero-content {
+            display: inline-block;
+            float: left;
+            width: 40%;
         }
 
-        #hero button {
-            
+        #hero img {
+            display: inline-block;
+            float: right;
+            width: 50%;
         }
 /* CLIENT LOGOS */
 
