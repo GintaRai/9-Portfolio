@@ -1,8 +1,20 @@
 "use strict";
 
 /* HEADER */
-
-
+$(function() {
+    var header = $("#header");
+  
+    $(window).scroll(function() {    
+        var scroll = $(window).scrollTop();
+        if (scroll >= 50) {
+            header.addClass("sticky");
+        } /*else {
+            // header.removeClass("sticky");
+            header.addClass("bg-grad-white-blue");
+        } */
+    });
+  
+});
 
 /* HERO */
 

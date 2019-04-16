@@ -61,7 +61,14 @@ var skills = [
 
 
 /* LATEST WORKS */
-
+var works = [
+    {
+        img: '',
+        title: '',
+        categorie: ''
+    },
+    
+]
 
 
 /* JOB HISTORY */
