@@ -60,20 +60,20 @@ function renderSkills( data ) {
 function renderWorks(data) {
     var HTML = '',
         filter_HTML = '',
-        items_HTML = '';
+        item_HTML = '';
 
     if ( !Array.isArray || data.length === 0 ) {
         return HTML;
     }
 
-    for (let i = 0; i < data.length; i++) {
-            filter_HTML += '<div class = "">\
-                                '+i+'\
-                            </div>'; 
-        }
+    for (var i = 0; i < data.length; i++) {
+        filter_HTML += '<div class = "">\
+                            '+i+'\
+                        </div>'; 
+    }
 
     for (var i = 0; i < data.length; i++) {
-        items_HTML += '<div class="item" style="background-image: url(img/'+data[i].img+')">\
+        item_HTML += '<div class="item" style="background-image: url(img/'+data[i].img+')">\
                             <div class="background">\
                                 <div class="texts">\
                                     <h4>'+data[i].title+'</h4>\
@@ -89,9 +89,9 @@ function renderWorks(data) {
                     '+filter_HTML+'\
                 </div>\
                 <div class="item-list">\
-                '+items_HTML+'\
+                '+item_HTML+'\
                 </div>\
-            </div> -->';
+            </div>';
 
 return HTML;
 }
