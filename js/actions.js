@@ -37,7 +37,7 @@ document.getElementById('skills_progress_bars').innerHTML = renderSkills( skills
 
 
 /* LATEST WORKS */
-
+document.getElementById('latest_works').innerHTML = renderWorks( works );
 
 
 /* JOB HISTORY */

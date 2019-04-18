@@ -358,7 +358,7 @@ body > #header {
             height: 240px;
             background-color: #90acd1;
             border-radius: 8px;
-            background-image: url(../img/w1.jpg);
+            /* background-image: url(../img/w1.jpg); */
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -381,9 +381,9 @@ body > #header {
                 .gallery .background > .texts > span {
                 }
 
-        .gallery > .item-list > .item:hover > .background {
-            display: flex;
-        }
+            .gallery > .item-list > .item:hover > .background {
+                display: flex;
+            }
         
         .gallery > .item-list > .item:nth-child(3n) {
             margin-right: 0;
