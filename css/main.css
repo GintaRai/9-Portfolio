@@ -150,6 +150,29 @@ body > #header {
     background-color: #FFF;
 }
 
+.sliding-menu {
+    /* display: none; */
+    height: calc(100vh - 70px);
+    width: 100%;
+}
+    .sliding-menu > .sliding-part {
+        display: inline-block;
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+        .sliding-menu > .sliding-part.part-left {
+            padding-left: calc((100% - 1000px) / 2);
+            background: red;
+        }
+        .sliding-menu > .sliding-part.part-right {
+            padding-right: calc((100% - 1000px) / 2);
+            background: blue;
+        }
+.sliding-menu-visible {
+
+} 
+
 /* HERO */
 #hero {
 

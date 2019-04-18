@@ -16,6 +16,10 @@ $(function() {
   
 });
 
+$('#header .menu').click(function () {
+    $('body').toggleClass('sliding-menu-visible');
+});
+
 /* HERO */
 
 
