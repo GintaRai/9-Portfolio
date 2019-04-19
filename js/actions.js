@@ -1,23 +1,24 @@
 "use strict";
 
 /* HEADER */
-$(function() {
-    var header = $("#header");
+// $(function() {
+//     var header = $("#header");
   
-    $(window).scroll(function() {    
-        var scroll = $(window).scrollTop();
-        if (scroll >= 50) {
-            header.addClass("sticky");
-        } /*else {
-            // header.removeClass("sticky");
-            header.addClass("bg-grad-white-blue");
-        } */
-    });
+//     $(window).scroll(function() {    
+//         var scroll = $(window).scrollTop();
+//         if (scroll >= 50) {
+//             header.addClass("sticky");
+//         } /*else {
+//             // header.removeClass("sticky");
+//             header.addClass("bg-grad-white-blue");
+//         } */
+//     });
   
-});
+// });
+
 
 $('#header .menu').click(function () {
-    $('body').toggleClass('sliding-menu-visible');
+    $('#sliding').toggleClass('sliding-menu-visible');
 });
 
 /* HERO */
