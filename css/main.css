@@ -14,9 +14,8 @@ body * {
     font-family: "Roboto",sans-serif;
 }
 
-body * {
-    display: inline-block;
-    width: 100%;
+body {
+    display: relative;
 }
 
 .container {
@@ -181,6 +180,7 @@ display: block;
     display: inline-block;
     position: relative;
     background-color: transparent;
+    width: 100%;
 }
     .hero_content{
         display: inline-block;
@@ -267,10 +267,12 @@ display: block;
             margin-bottom: 15px;
             font-size: 35px;
             font-weight: 600;
+            width: 100%;
         }
         .cards_list > .card > .title {
             display: inline-block;
             text-transform: uppercase;
+            width: 100%;
         }
         .cards_list > .card:last-child {
             margin: 0;
