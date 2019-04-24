@@ -1,6 +1,8 @@
 "use strict";
 
 /* HEADER */
+window.onscroll = function(){stickToTop(); /*backToTop()*/};
+
 // $(function() {
 //     var header = $("#header");
   
@@ -15,7 +17,6 @@
 //     });
   
 // });
-
 
 $('#header .menu').click(function () {
     $('#sliding').toggleClass('sliding-menu-visible');

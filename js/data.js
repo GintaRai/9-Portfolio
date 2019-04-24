@@ -1,6 +1,7 @@
 "use strict";
 /* HEADER */
-
+var header = document.getElementById("header");
+var sticky = header.offsetTop;
 
 
 /* HERO */

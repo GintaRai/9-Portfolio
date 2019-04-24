@@ -113,7 +113,7 @@ body {
     position: relative;
 }
 
-body > #header {
+body > header {
     position: absolute;
     top: 0;
     right: 0;
@@ -146,6 +146,10 @@ body > #header {
     }
 
 .sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     background-color: #FFF;
 }
 
@@ -180,6 +184,7 @@ display: block;
     display: inline-block;
     position: relative;
     background-color: transparent;
+    /* height: 100vh; */
 }
     .hero_content{
         display: inline-block;
@@ -213,6 +218,7 @@ display: block;
             display: inline-block;
             float: left;
             width: 40%;
+            margin-top: 110px;
         }
             .hero-content > h1 {
                 text-transform: capitalize;
@@ -230,6 +236,7 @@ display: block;
             display: inline-block;
             float: right;
             width: 50%;
+            margin-top: 110px;
         }
 /* CLIENT LOGOS */
 
