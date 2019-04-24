@@ -185,7 +185,6 @@ display: block;
         display: inline-block;
         width: 300px;
     }
-
         #hero .me_banner {
             position: relative;
             display: inline-block;
@@ -196,7 +195,6 @@ display: block;
             background: #90acd1;
             border-radius: 8px;
         }
-
             .me_banner::after {
                 position: absolute;
                 content: '';
@@ -208,17 +206,24 @@ display: block;
                 border-right: 0px solid transparent;
                 border-top: 24px solid #90acd1;
             }
-        
         #hero > .container {
             padding: 110px 0 0 0;
         }
-
         #hero .hero-content {
             display: inline-block;
             float: left;
             width: 40%;
         }
-
+            .hero-content > h1 {
+                text-transform: capitalize;
+                margin-top: 20px;
+            }
+            .hero-content > p {
+                text-transform: capitalize;
+                font-size: 20px;
+                line-height: 25px;
+                margin: 20px 0;
+            }
         #hero img {
             display: inline-block;
             float: right;
