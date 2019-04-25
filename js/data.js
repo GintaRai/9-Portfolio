@@ -101,7 +101,7 @@ var works = [
 
 
 /* TESTIMONIALS */
-
+var testimonials = [1,2,3,4];
 
 
 /* CONTACT ME */

@@ -51,7 +51,7 @@ document.getElementById('latest_works').innerHTML = renderWorks( works );
 
 
 /* TESTIMONIALS */
-
+$('#testimonials > .container').html( renderTestimonials(testimonials) );
 
 
 /* CONTACT ME */
